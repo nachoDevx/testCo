@@ -1,8 +1,9 @@
 # testCo
 
-Hecho en node 8
+Hecho en Node.js v8.11.1, npm v5.6.0
 
-Este programa hace lo siguiente:
+En package.json se definen los siguientes comandos: 
 
-  "npm print" : se imprimen los resultados del algoritmo
-  "npm test" : se ejecutan test y se ve el coverage
+  - `npm print` : Se ejecuta el algoritmo y se imprimen sus resultados.
+  
+  - `npm test` : Se ejecutan los test y se imprimen los resultados y el coverage.
