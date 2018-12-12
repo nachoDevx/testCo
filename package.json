@@ -1,0 +1,17 @@
+{
+  "name": "test-co",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "print" : "node ./src/products_after_30_days",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.2.0",
+    "isparta": "^4.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}
